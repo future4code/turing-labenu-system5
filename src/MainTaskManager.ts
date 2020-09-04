@@ -44,3 +44,4 @@ export class MainTaskManager{
         console.log(kamila.getAge("2"))
     }
 }
+ 
