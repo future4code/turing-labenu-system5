@@ -1,4 +1,4 @@
-import { User } from './User'
+import { User } from './user'
 import moment from 'moment'
 
 moment.locale("pt-br")
