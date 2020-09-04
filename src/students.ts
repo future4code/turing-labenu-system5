@@ -18,12 +18,10 @@ export class Student implements User {
         this.birthDate = birthDate
         this.hobbies = hobbies
     }
-    // public getAge(): moment.Moment {
-    //     const today = moment()
-    //     const birthDate = moment(this.birthDate, "DD/MM/YYYY")
-        // const age = today.diff(birthDate, "years")
-        // return today.diff(birthDate, "years")
-        // return moment().diff(this.birthDate, "years")
+     public getAge(id: string): number {
+        const today = moment()
+        const birthDate = moment(this.birthDate, "DD/MM/YYYY")
+        return today.diff(birthDate, "years")
     }
-// }
+ }
 
