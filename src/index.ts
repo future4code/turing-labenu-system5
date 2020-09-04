@@ -69,4 +69,4 @@ missions.push(turing, mello, tang)
 
 fm.writeFileInJson(missions)
 
-// console.log(kamila.getAge())
+console.log(`A idade da ${kamila.name} é: ${kamila.getAge('1')}`)

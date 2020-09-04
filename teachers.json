@@ -1,1 +1,150 @@
-[]
+[
+  {
+    "id": "5",
+    "name": "Amanda",
+    "email": "amanda@gmail.com",
+    "specialties": [
+      "BACKEND",
+      "TESTES"
+    ]
+  },
+  {
+    "id": "4",
+    "name": "Mateus",
+    "email": "mateus@gmail.com",
+    "specialties": [
+      "BACKEND",
+      "TESTES"
+    ]
+  },
+  {
+    "id": "3",
+    "name": "Soter",
+    "email": "soter@gmail.com",
+    "specialties": [
+      "CSS",
+      "REACT",
+      "REDUX",
+      "TESTES"
+    ]
+  },
+  {
+    "id": "6",
+    "name": "Caio",
+    "email": "caio@gmail.com",
+    "specialties": [
+      "CSS"
+    ]
+  },
+  {
+    "id": "5",
+    "name": "Amanda",
+    "email": "amanda@gmail.com",
+    "specialties": [
+      "BACKEND",
+      "TESTES"
+    ]
+  },
+  {
+    "id": "4",
+    "name": "Mateus",
+    "email": "mateus@gmail.com",
+    "specialties": [
+      "BACKEND",
+      "TESTES"
+    ]
+  },
+  {
+    "id": "3",
+    "name": "Soter",
+    "email": "soter@gmail.com",
+    "specialties": [
+      "CSS",
+      "REACT",
+      "REDUX",
+      "TESTES"
+    ]
+  },
+  {
+    "id": "6",
+    "name": "Caio",
+    "email": "caio@gmail.com",
+    "specialties": [
+      "CSS"
+    ]
+  },
+  {
+    "id": "5",
+    "name": "Amanda",
+    "email": "amanda@gmail.com",
+    "specialties": [
+      "BACKEND",
+      "TESTES"
+    ]
+  },
+  {
+    "id": "4",
+    "name": "Mateus",
+    "email": "mateus@gmail.com",
+    "specialties": [
+      "BACKEND",
+      "TESTES"
+    ]
+  },
+  {
+    "id": "3",
+    "name": "Soter",
+    "email": "soter@gmail.com",
+    "specialties": [
+      "CSS",
+      "REACT",
+      "REDUX",
+      "TESTES"
+    ]
+  },
+  {
+    "id": "6",
+    "name": "Caio",
+    "email": "caio@gmail.com",
+    "specialties": [
+      "CSS"
+    ]
+  },
+  {
+    "id": "5",
+    "name": "Amanda",
+    "email": "amanda@gmail.com",
+    "specialties": [
+      "BACKEND",
+      "TESTES"
+    ]
+  },
+  {
+    "id": "4",
+    "name": "Mateus",
+    "email": "mateus@gmail.com",
+    "specialties": [
+      "BACKEND",
+      "TESTES"
+    ]
+  },
+  {
+    "id": "3",
+    "name": "Soter",
+    "email": "soter@gmail.com",
+    "specialties": [
+      "CSS",
+      "REACT",
+      "REDUX",
+      "TESTES"
+    ]
+  },
+  {
+    "id": "6",
+    "name": "Caio",
+    "email": "caio@gmail.com",
+    "specialties": [
+      "CSS"
+    ]
+  }
+]
