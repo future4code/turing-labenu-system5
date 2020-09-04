@@ -1,6 +1,6 @@
 import { Mission } from "./Mission";
 import moment from 'moment'
-import { Student } from './Students'
+import { Student } from './students'
 import { Teacher } from './Teacher'
 
 moment.locale("pt-br")

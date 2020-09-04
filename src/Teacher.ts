@@ -1,4 +1,4 @@
-import { User } from "./User";
+import { User } from "./user";
 
 export enum TEACHER_SPECIALTY {
     REACT = "REACT",
