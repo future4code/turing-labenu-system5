@@ -1,15 +1,19 @@
 import moment from 'moment'
+import { Student } from './Students'
+import { Teacher } from './Teacher'
+
+moment.locale("pt-br")
 
 export abstract class Mission{
-    protected name: string = ""
+    private name: string = ""
 
     constructor(
         protected id: string,
-        protected startDate: moment.Moment,
-        protected endDate: moment.Moment,
+        protected startDate: string,
+        protected endDate: string,
         protected listOfTeacher: Teacher[] = [],
         protected studentList: Student[] =[],
-        protected currentModule: number | undefined= undefined
+        protected currentModule: number | undefined = undefined
     ){ }
 
     public getId():string{
@@ -20,24 +24,28 @@ export abstract class Mission{
         return this.name
     }
 
-    public getStartDate(): moment.Moment{
+    public getStartDate(): string{
         return this.startDate
     }
 
-    public getEndDate(): moment.Moment{
+    public getEndDate(): string{
         return this.endDate
     }
 
-    // public addTeacher(teacher: string): void{
-    //     this.listOfTeacher.push(teacher)
-    // }
+    public addTeacher(teacher: Teacher): void{
+        this.listOfTeacher.push(teacher)
+    }
 
-    // public addStudent(student: string): void{
-    //     this.studentList.push(student)
-    // }
+    public addStudent(student: Student): void{
+        this.studentList.push(student)
+    }
 
     public setName(name:string): void{
         this.name = name
+    }
+
+    public getListOfTeacher():Teacher[]{
+        return this.listOfTeacher
     }
 
 }

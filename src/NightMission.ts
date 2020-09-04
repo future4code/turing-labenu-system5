@@ -1,18 +1,21 @@
 import { Mission } from "./Mission";
 import moment from 'moment'
+import { Student } from './Students'
+import { Teacher } from './Teacher'
+
+moment.locale("pt-br")
 
 export class NightMission extends Mission{
     constructor(
         id: string,
-        name: string,
-        startDate: moment.Moment,
-        endDate: moment.Moment,
+        startDate: string,
+        endDate: string,
         listOfTeacher: Teacher[],
         studentList: Student[],
         currentModule: number|undefined
     ){
         super(id, startDate, endDate, listOfTeacher, studentList, currentModule)
-        this.name = name
+        
     }
 
     public setName(name: string): void{

@@ -1,3 +1,5 @@
+import { User } from "./User";
+
 export enum TEACHER_SPECIALTY {
     REACT = "REACT",
     REDUX = "REDUX",
@@ -8,7 +10,7 @@ export enum TEACHER_SPECIALTY {
     BACKEND = "BACKEND",
   }
   
-  export class Teacher {
+  export class Teacher implements User{
     constructor(
       public id: string,
       public name: string,
